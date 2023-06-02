@@ -1,0 +1,43 @@
+<!-- {% extends 'base.html' %}
+{% block content %} -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+	<link rel="stylesheet" href="css_file/css_for_multiple_pages.css"/>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:450px)"
+      href="css_file/phone.css"
+    />
+  </head>
+
+  <body>
+    <div id="user_container">
+      <div id="child_user">
+        <h1>Sign up</h1>
+        <form method="post">
+          <!-- {% csrf_token %} -->
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" /><br /><br />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" /><br /><br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="type">Login as:</label>
+          <select id="type" name="type">
+            <option value="admin">Admin</option>
+            <option value="student">Student</option></select
+          ><br /><br />
+          <div id="div_submit">
+            <input class="submit" type="submit" value="Login" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- {% endblock %} -->

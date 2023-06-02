@@ -1,0 +1,231 @@
+/* APPLICATION FORM PAGE RESPONSIVE DESIGN */
+
+#application_form {
+  width: 41rem;
+}
+.application_info .application_info_child {
+  flex-direction: column;
+}
+
+.application_info .application_info_child .sub_div {
+  margin-left: 0;
+}
+#application_form .application_info textarea {
+  width: 35rem;
+  font-size: 1.6rem;
+}
+#application_form .h2heading {
+  font-size: 2.5rem;
+}
+
+#application_form label {
+  font-size: 1.6rem;
+}
+
+#application_form .application_info input {
+  width: 32rem;
+  height: 4rem;
+  font-size: 1.7rem;
+}
+
+.application_info .application_info_child .sub_div .select {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.4rem;
+}
+
+#application_form_buttonDiv button {
+  height: 5.5rem;
+  width: 20rem;
+  font-size: 28px;
+}
+#application_form_heading {
+  width: 30rem;
+  padding: 0 5rem;
+}
+
+/* APPLICATION FORM PAGE RESPONSIVE DESIGN */
+
+/* CREATE ADMIN USER HTMLPAGE DESIGN */
+#admin_container {
+  height: 46rem;
+}
+#admin_child {
+  width: 19rem;
+}
+#admin_child form input {
+  width: 15rem;
+  height: 2rem;
+}
+
+#admin_child form .form-group {
+  padding-left: 13px;
+}
+
+#admin_child form label {
+  font-size: 20px;
+}
+
+/* CREATE ADMIN USER HTMLPAGE DESIGN */
+
+/* LOGIN PAGE RESPONSIVE DESIGN */
+
+#login_main_container {
+  height: 46rem;
+}
+
+#login_container {
+  height: 26rem;
+  width: 19rem;
+}
+#login_container h1 {
+  font-size: 2rem;
+}
+
+#login_container form label {
+  font-size: 1.3rem;
+}
+
+#login_container form input {
+  width: 15rem;
+}
+
+#login_container form input {
+  width: 15rem;
+  margin-left: 2rem;
+}
+#login_container form label {
+  font-size: 1.3rem;
+  padding-left: 3rem;
+}
+
+#login_container form .login_input_button {
+  margin-left: 0;
+}
+
+#login_container form .login_input_button {
+  height: 2.6rem;
+  width: 8rem;
+}
+
+/* LOGIN PAGE RESPONSIVE DESIGN */
+
+
+
+/* REGISTER PAGE DESIGN */
+.register {
+  width: 21rem;
+}
+
+.register .text-muted {
+  font-size: 1.3rem;
+}
+
+/* REGISTER PAGE DESIGN */
+
+
+
+/* SCHEDULE_COLLEGE PAGE DESIGN */
+.schedule_college h1 {
+  width: 31rem;
+}
+/* SCHEDULE_COLLEGE PAGE DESIGN */
+
+
+
+/* STUDENT ATTENDANCE PAGE RESPONSIVE */
+.student_attendance {
+  width: 19rem;
+}
+
+.student_attendance h1 {
+  font-size: 1.5rem;
+}
+
+.student_attendance table {
+  width: 19rem;
+}
+
+.student_attendance form {
+  text-align: left;
+}
+.student_attendance form label {
+  font-size: 1.3rem;
+}
+.student_attendance form input {
+  width: 18rem;
+  margin: 1rem 0;
+}
+.student_attendance #attendance_table {
+  max-height: 23rem;
+  overflow: scroll;
+}
+/* STUDENT ATTENDANCE PAGE RESPONSIVE */
+
+/* SUCCESS PAGE DESIGN */
+
+#success_container {
+  height: 43rem;
+}
+
+#child_success {
+  width: 21rem;
+  padding: 10px;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+#child_success h1 {
+  font-size: 2rem;
+}
+
+#child_success p {
+  font-size: 15px;
+}
+
+#child_success .link1 {
+  padding: 1rem;
+  position: relative;
+  top: 2.4rem;
+}
+#child_success .link2 {
+  padding: 1rem;
+  position: relative;
+  top: 4.4rem;
+}
+
+/* SUCCESS PAGE DESIGN */
+
+/* USER PAGE DESIGN */
+#user_container {
+  height: 46rem;
+}
+
+#child_user {
+  height: 28rem;
+  width: 19rem;
+}
+#child_user h1 {
+  margin-top: 0.6rem;
+}
+#child_user form {
+  padding-left: 1rem;
+}
+
+#child_user input {
+  height: 2rem;
+  width: 15rem;
+}
+
+#child_user label {
+  font-size: 18px;
+}
+#child_user input {
+  margin: 0.1rem 0;
+}
+#child_user form #div_submit {
+  padding-left: 3.7rem;
+  height: 2.7rem;
+  font-size: 22px;
+}
+
+/* USER PAGE DESIGN */

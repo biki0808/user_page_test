@@ -1,0 +1,599 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+
+/* APPLICATION FORM DESIGN*/
+#application_form_heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4.5rem;
+  font-size: 3.2rem;
+}
+
+#application_form {
+  width: 53rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.application_info {
+  background-color: #ecf2ff;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 24px 37px 22px 5px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(41, 38, 38, 0.19);
+}
+#application_form .application_info input {
+  border-radius: 1rem;
+  height: 2rem;
+  width: 22rem;
+  font-size: 1.4rem;
+  border: 1px solid rgb(232, 223, 223);
+  text-align: center;
+  font-family: arial;
+  margin: 1rem 0;
+}
+
+#application_form .application_info textarea {
+  border-radius: 1rem;
+  border: 1px solid rgb(232, 223, 223);
+  margin: 1rem 0;
+  box-sizing: border-box;
+  padding: 0.8rem 0 0 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.application_info .application_info_child {
+  display: flex;
+}
+
+.application_info .application_info_child .sub_div {
+  margin-left: 2rem;
+}
+
+.application_info .application_info_child .sub_div .select {
+  height: 2rem;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#application_form_buttonDiv {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+#application_form_buttonDiv button {
+  height: 3.5rem;
+  width: 13rem;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 1rem;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2d2727;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+#application_form_buttonDiv button:hover {
+  animation-name: button_animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button_animation {
+  from {
+  }
+  to {
+    background-color: #0096ff;
+    color: white;
+  }
+}
+
+/* APPLICATION FORM DESIGN */
+
+
+
+/* CREATE ADMIN USER HTMLPAGE DESIGN */
+
+#admin_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#admin_child {
+  background-color: rgb(144, 139, 139);
+  height: 27rem;
+  width: 23rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #393e46;
+  color: white;
+  box-shadow: 24px 37px 22px 5px rgb(147 70 63 / 25%),
+    0 6px 20px 0 rgb(126 57 57 / 82%);
+}
+
+#admin_container #admin_child h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#admin_child form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+}
+
+#admin_child form input {
+  width: 17rem;
+  height: 2.2rem;
+  border-radius: 1rem;
+  border: 1px solid grey;
+  margin: 0.5rem 0;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#admin_child form .form-group {
+  padding-left: 28px;
+}
+
+#admin_child form #div_button {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#admin_child form #div_button button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background-color: #0096ff;
+  color: white;
+}
+
+#admin_child form #div_button button:hover {
+  animation-name: admin_button;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+
+@keyframes admin_button {
+  from {
+    width: 9rem;
+    height: 3rem;
+  }
+  to {
+    width: 9.3rem;
+    height: 3.3rem;
+    background-color: #10ba40;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #admin_container {
+    height: 40rem;
+  }
+}
+
+/* CREATE ADMIN USER HTMLPAGE DESIGN */
+
+/* LOGIN PAGE CSS */
+
+#login_main_container {
+  background-color: rgb(235, 230, 230);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login_container {
+  background-color: #ecf2ff;
+  height: 30rem;
+  width: 25rem;
+  border-radius: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 24px 37px 22px 5px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(41, 38, 38, 0.19);
+}
+#login_container h1 {
+  color: #212a3e;
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px #3f3d3d;
+}
+
+#login_container form {
+  height: 14rem;
+  width: 19rem;
+}
+
+#login_container form label {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#login_container form input {
+  width: 18rem;
+  height: 2rem;
+  margin: 7px 0;
+  border-radius: 1rem;
+  border: 1px solid rgb(232, 223, 223);
+  opacity: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#login_container form #div_login_button {
+  text-align: center;
+  margin-top: 10px;
+}
+#login_container form .login_input_button {
+  background-color: #393646;
+  height: 2.8rem;
+  width: 9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  color: white;
+  box-shadow: 24px 21px 19px 5px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(41, 38, 38, 0.19);
+}
+
+#login_container form .login_input_button:hover {
+  background-color: #8e88a7;
+  color: black;
+  animation-name: button;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button {
+  form {
+    height: 2.8rem;
+    width: 9rem;
+  }
+  to {
+    width: 10rem;
+    height: 3.1rem;
+  }
+}
+
+form #select_option {
+  padding: 0 1rem;
+  background-color: rgb(251, 249, 249);
+  height: 2rem;
+  width: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #login_main_container {
+    height: 40rem;
+  }
+}
+
+/* LOGIN PAGE CSS */
+
+
+
+/* REGISTER PAGE DESIGN */
+.register{
+  width: 38rem;
+  height: 27rem;
+  padding: 1rem;
+  background-color:#dbdfea;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  margin: 2rem auto;
+}
+
+.register form fieldset{
+  height: 11rem;
+  border-radius: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register .register_button {
+  height: 2.6rem;
+  width: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0.7rem;
+  border: none;
+  background-color: #14d114c2;
+  color: white;
+  margin-top: 0.6rem;
+}
+
+.register .text-muted{
+  font-size: 1.2rem;
+  font-family: arial;
+  padding: 1rem;
+  position: relative;
+  top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* REGISTER PAGE DESIGN */
+
+
+/* STUDENT ATTENDANCE PAGE DESIGN */
+
+.student_attendance {
+  margin: 0 auto;
+  background-color: #dbdfea;
+  width: 60rem;
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.student_attendance form {
+  text-align: center;
+}
+.student_attendance form label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+.student_attendance form input {
+  position: relative;
+  bottom: 3px;
+  margin: 0 0.7rem;
+  height: 2rem;
+  border-radius: 0.8rem;
+  border: none;
+  width: 9rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.student_attendance form #present {
+  width: 15px;
+  position: relative;
+  top: 10px;
+  margin: 2px;
+}
+
+.student_attendance form button {
+  height: 2.7rem;
+  width: 7rem;
+  font-family: arial;
+  font-size: 1.1rem;
+  border-radius: 0.9rem;
+  border: none;
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.student_attendance form button:hover {
+  animation-name: attendance;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
+@keyframes attendance {
+  from {
+  }
+  to {
+    background-color: #10ba40;
+    color: white;
+  }
+}
+
+.student_attendance h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+}
+
+.student_attendance table {
+  text-align: center;
+  margin: 2rem auto;
+  width: 45rem;
+  font-family: arial;
+}
+.student_attendance table tr td {
+  border-bottom: 1px solid #80808029;
+  background-color: white;
+  border-radius: 7px;
+  padding: 0.5rem;
+}
+
+.student_attendance #attendance_table {
+  max-height: 35rem;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 1024px) {
+  .student_attendance {
+    width: 48rem;
+  }
+}
+
+/* STUDENT ATTENDANCE PAGE DESIGN */
+
+/* SUCCESS PAGE DESIGN */
+#success_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#child_success {
+  background-color: #ecf2ff;
+  width: 44rem;
+  height: 27rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-family: arial;
+}
+
+#child_success h1 {
+  font-size: 3rem;
+}
+
+#child_success p {
+  font-size: 17px;
+}
+
+#child_success .link1 {
+  text-decoration: none;
+  padding: 1.3rem;
+  border-radius: 13px;
+  background-color: #2d2727d1;
+  color: white;
+  position: relative;
+  top: 1.4rem;
+}
+#child_success .link2 {
+  text-decoration: none;
+  padding: 1.3rem;
+  border-radius: 13px;
+  background-color: #2d2727d1;
+  color: white;
+  position: relative;
+  top: 3.6rem;
+}
+
+#child_success .anime:hover {
+  animation-name: link;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes link {
+  from {
+    padding: 1.3rem;
+  }
+  to {
+    padding: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #success_container {
+    height: 46rem;
+  }
+}
+
+/* SUCCESS PAGE DESIGN */
+
+/* USER page design */
+#user_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#child_user {
+  background-color: #393e46;
+  color: white;
+  height: 30rem;
+  width: 24rem;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 33rem;
+  box-shadow: 24px 37px 22px 5px rgb(147 70 63 / 25%),
+    0 6px 20px 0 rgb(126 57 57 / 82%);
+}
+
+#child_user h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#child_user form {
+  padding-left: 2rem;
+}
+
+#child_user form .submit {
+  width: 8rem;
+  height: 3rem;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #0096ff;
+  border: none;
+}
+
+#child_user form .submit:hover {
+  animation-name: user;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 0.5s;
+}
+
+@keyframes user {
+  from {
+  }
+  to {
+    background-color: #10ba40;
+    color: white;
+  }
+}
+
+#child_user form #div_submit {
+  padding-left: 4.5rem;
+}
+
+#child_user label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#child_user input {
+  height: 2.5rem;
+  width: 17rem;
+  border-radius: 0.8rem;
+  border: 1px solid grey;
+  margin: 0.4rem 0;
+}
+
+/* USER page design */
